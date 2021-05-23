@@ -1,0 +1,30 @@
+<mat-card>
+    <mat-card-title>Alterar Úsuario</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome"
+                [(ngModel)]="user.name" name="name">
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Cidade"
+                [(ngModel)]="user.city" name="city">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Email"
+                [(ngModel)]="user.email" name="email">
+        </mat-form-field>
+
+        <mat-form-field>
+            <input matInput placeholder="Saldo (R$)"
+                [(ngModel)]="user.sald" name="sald">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="updateUser()" color="primary">
+        Atualizar
+    </button>
+    
+    <button mat-raised-button (click)="cancel()">
+        Cancelar
+    </button>
+</mat-card>

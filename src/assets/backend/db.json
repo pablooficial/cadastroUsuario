@@ -1,0 +1,70 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Caneta BIC Pretaa",
+      "price": "5.89",
+      "active": "Disponivel"
+    },
+    {
+      "id": 2,
+      "name": "Notebook Mac Pro",
+      "price": 120.89,
+      "active": "Disponivel"
+    },
+    {
+      "id": 3,
+      "name": "Sansung S20+ Ultra",
+      "price": "7520.89",
+      "active": "Disponivel"
+    },
+    {
+      "name": "Lapis Preto Básico",
+      "price": 1.59,
+      "active": "Indisponivel",
+      "id": 4
+    },
+    {
+      "name": "LG LTDA",
+      "active": "Disponivel",
+      "price": "1",
+      "id": 6
+    },
+    {
+      "name": "LG LTDA",
+      "active": "Indisponivel",
+      "price": "1",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "João Augusto Felipe Victor",
+      "city": "São Paulo",
+      "email": "teste@teste.com",
+      "sald": "5.8"
+    },
+    {
+      "id": 2,
+      "name": "Samuel Jose Batistao",
+      "city": "São Paulo",
+      "email": "teste@teste.com",
+      "sald": "5.8"
+    },
+    {
+      "id": 3,
+      "name": "Marlos Nascimento",
+      "city": "São Paulo",
+      "email": "teste@teste.com",
+      "sald": "5.8"
+    },
+    {
+      "id": 4,
+      "name": "Gabriel Xavier",
+      "city": "Rio de Janeiro",
+      "email": "teste@teste.com",
+      "sald": "5.8"
+    }
+  ]
+}
